@@ -1,0 +1,748 @@
+*{
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+}
+
+#Nav{
+    width:100%;
+    /* height:100px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 20px;
+}
+
+.Conteiner{
+    width:90%;
+    /* height:80px; */
+    /* border:solid 1px red; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Logo{
+    font-size:36px;
+}
+
+.NavIcon{
+    width:10%;
+    height:40px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.NavBurger{
+    font-size:25px;
+    margin-left:20px;
+    margin-top:5px;
+    display:none;
+}
+
+.naviconpeple{
+    display:block;
+}
+
+.naviconlike{
+    display:block;
+}
+
+.naviconbasket{
+    display:block;
+}
+
+.SectioneOne{
+    width:100%;
+    /* height:700px; */
+    /* border:solid 1px; */
+}
+
+.d-block{
+    background-size:cover;
+}
+
+.SectioneTwo{
+    width:100%;
+    /* height:850px; */
+    /* border:solid 1px; */
+}
+
+.SectioneTextTwoPar{
+    width:60%;
+    /* height:70px; */
+    /* border:solid 1px; */
+    margin-left:60px;
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+}
+
+.paragrafnewcollection{
+    font-size:35px;
+    color:#121212;
+    margin-top:8px;
+}
+
+.Right{
+    margin-left:8px;
+}
+
+.SectioneTwoWallpaperPar{
+    width:90%;
+    /* height:500px; */
+    /* border:solid 1px; */
+    margin-left:60px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.SectioneTwoWallpaperOne{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/8.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneTwoWallpaperOne:hover{
+    background-image:url("./wallpaper/21.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+.SectioneTwoWallpaperTwo{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/9.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneTwoWallpaperTwo:hover{
+    background-image:url("./wallpaper/22.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+.SectioneTwoWallpaperThree{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/10.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneTwoWallpaperThree:hover{
+    background-image:url("./wallpaper/23.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+.SectioneTwoMoney{
+    width:90%;
+    height:150px;
+    /* border:solid 1px; */
+    margin-left:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SectioneTwoTextMoneyOne{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneTwoTextMoneyTwo{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneTwoTextMoneyThree{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneTwoParagrafOnePar{
+    width:95%;
+    height:50px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragraflicar{
+    font-size:21px;
+    margin-left:90px;
+}
+
+.like{
+    margin-top:7px;
+}
+
+.paragrafamd{
+    font-size:18px;
+    text-align:center;
+}
+
+.SectioneTwoParagrafTwoPar{
+    width:95%;
+    height:50px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragrafsaltinhalter{
+    font-size:21px;
+    margin-left:120px;
+}
+
+.paragrafamdtwo{
+    font-size:21px;
+    margin-left:170px;
+}
+
+.SectioneTwoParagrafThreePar{
+    width:95%;
+    height:50px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragrafTie{
+    font-size:21px;
+    margin-left:120px;
+}
+
+.paragrafamdthree{
+    font-size:18px;
+    margin-left:180px;
+}
+
+.SectioneThree{
+    width:100%;
+    height:600px;
+    /* border:solid 1px; */
+}
+
+.SectioneThreeWallppaperTextPar{
+    width:100%;
+    /* height:600px; */
+    /* border:solid 1px; */
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SectioneThreeWallpaper{
+    width:555px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/12.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.SectioneThreeText{
+    width:600px;
+    height:400px;
+    /* border:solid 1px; */
+    margin-right:70px;
+}
+
+.paragrafItems{
+    font-size:60px;
+    text-align:center;
+}
+
+.paragrafMissOut{
+    font-size:60px;
+    text-align:center;
+}
+
+button{
+    width:178px;
+    height:72px;
+    border:solid 1px #121212;
+    background-color:#EFEFEF;
+    border-radius:10px !important;
+    color:#121212;
+    font-size:25px;
+    cursor:pointer;
+    display:block !important;
+    margin:0 auto !important;
+    margin-top:50px !important;
+}
+
+.SectioneFoure{
+    width:100%;
+    /* height:800px; */
+    /* border:solid 1px; */
+}
+
+.SectioneTextFourePar{
+    width:60%;
+    /* height:70px; */
+    /* border:solid 1px; */
+    margin-left:60px;
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+}
+
+.paragrafmenshirtcollectione{
+    font-size:35px;
+    color:#121212;
+    margin-top:8px;
+}
+
+.Right{
+    margin-left:8px;
+}
+
+.SectioneFoureWallpaperPar{
+    width:90%;
+    /* height:500px; */
+    /* border:solid 1px; */
+    margin-left:60px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.SectioneFoureWallpaperOne{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/13.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneFoureWallpaperOne:hover{
+    background-image:url("./wallpaper/28.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+
+.SectioneFoureWallpaperTwo{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/14.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneFoureWallpaperTwo:hover{
+    background-image:url("./wallpaper/29.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+.SectioneFoureWallpaperThree{
+    width:415px;
+    height:500px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/15.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.SectioneFoureWallpaperThree:hover{
+    background-image:url("./wallpaper/27.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    transform:scale(0.6);
+    z-index:3;
+}
+
+.SectioneFoureMoney{
+    width:90%;
+    height:150px;
+    /* border:solid 1px; */
+    margin-left:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SectioneFoureTextMoneyOne{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneFoureTextMoneyTwo{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneFoureTextMoneyThree{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.SectioneFoureParagrafOnePar{
+    width:95%;
+    /* height:50px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragrafprintshort{
+    font-size:21px;
+    margin-left:90px;
+}
+
+.like{
+    margin-top:7px;
+}
+
+
+.SectioneFoureParagrafTwoPar{
+    width:95%;
+    /* height:50px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragrafFloralPrint{
+    font-size:21px;
+    margin-left:70px;
+}
+
+.like{
+    margin-top:7px;
+}
+
+.SectioneFoureParagrafThreePar{
+    width:95%;
+    /* height:50px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.paragrfEmbroideredshort{
+    font-size:21px;
+    margin-left:70px;
+}
+
+.like{
+    margin-top:7px;
+}
+
+.SectioneFive{
+    width:100%;
+    height:650px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.SectioneFiveContactPar{
+    width:96%;
+    /* height:600px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SectioneFiveTextPar{
+    width:45%;
+    /* height:500px; */
+    /* border:solid 1px; */
+}
+
+.SectioneFiveContact{
+    width:45%;
+    /* height:500px; */
+    /* border:solid 1px; */
+}
+
+.paragrafgetintouch{
+    margin-left:120px;
+    font-size:60px;
+}
+
+.paragrafsubscribe{
+    font-size:25px;
+    margin-left:126px;
+    color:#545454;
+    margin-top:20px;
+}
+
+.paragrafnextshop{
+    font-size:25px;
+    margin-left:120px;
+    color:#545454;
+    margin-top:20px;
+}
+
+.paragrafspecialoffers{
+    font-size:25px;
+    margin-left:130px;
+    color:#545454;
+    margin-top:20px;
+}
+
+.ContactEmail{
+    width:413px;
+    height:64px;
+    border:solid 2px #121212;
+    display:block;
+    margin:0 auto;
+    border-radius:10px;
+    padding:10px 20px;
+    margin-top:20px;
+}
+
+.SectioneFiveContactButton{
+    width:413px;
+    height:64px;
+    border:solid 2px #121212;
+    display:block;
+    margin:0 auto;
+    border-radius:10px;
+    background-color:#121212;
+    color:#ffff;
+    font-size:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+.footer{
+    width:100%;
+    /* height:600px; */
+    /* border:solid 1px; */
+    background-color:#D9D9D9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footercontactpar{
+    width:96%;
+    height:500px;
+    /* border:solid 1px red; */
+    display:flex;
+    align-items:center;
+}
+
+.CustomerSupportPar{
+     width:30%;
+     height:350px;
+     /* border:solid 1px; */
+}
+
+.AboutUs{
+     width:30%;
+     height:400px;
+     /* border:solid 1px; */
+     margin-top:50px;
+}
+
+.FollowUsOn{
+    width:30%;
+     height:350px;
+     /* border:solid 1px; */
+}
+
+.paragrafcustomersupport{
+    font-size:22px;
+    text-align:center;
+}
+.paragrafcustomercontactus{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+}
+.paragrafpaymentpricing{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+}
+.paragraffaqs{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+}
+.paragraftermsandconditions{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+}
+.paragrafprivacypolice{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+}
+.paragrafaccessibility{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:131px;
+    color:#545454;
+
+}
+
+.paragrafaboutus{
+    font-size:22px;
+    text-align:center;
+}
+.paragraffooteraboutus{
+    font-size:18px;
+    margin-top:15px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafinvestors{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafagencypartners{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafcareers{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafsitemap{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafcustomerpromise{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+.paragrafouttoseeapp{
+    font-size:18px;
+    margin-top:20px;
+    margin-left:175px;
+    color:#545454;
+}
+
+.footerIconPar{
+    width:30%;
+    height:40px;
+    /* border:solid 1px; */
+    margin:0 auto;
+    margin-top:20px;
+    margin-left:150px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footericoninstagram{
+    color:#121212;
+    cursor:pointer;
+}
+.footericonfaceebook{
+    color:#121212;
+    cursor:pointer;
+}
+.footericontwiter{
+    color:#121212;
+    cursor:pointer;
+}
+
+.paragrafffooterollowuson{
+    font-size:22px;
+    text-align:center;
+}
+
+.paragrafourapp{
+    margin-left:155px;
+    margin-top:30px;
+    font-size:25px;
+}
+
+.AppApstore{
+    width:60%;
+    height:100px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin-left:150px;
+}
+
+.App{
+    width:133.58px;
+    height:42px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/24.jpg");
+    background-size:cover;
+    cursor:pointer;
+    display:block;
+}
+
+.Apstore{
+    width:133.58px;
+    height:42px;
+    /* border:solid 1px; */
+    background-image:url("./wallpaper/25.jpg");
+    background-size:cover;
+    border-radius:6px;
+    cursor:pointer;
+    display:block;
+}
